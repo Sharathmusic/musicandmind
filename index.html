@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Music & Mind — Music, Psychology and Wellbeing.">
+  <title>Music & Mind | Music · Psychology · Wellbeing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a href="#home" class="brand">
+    <span class="brand-name">MUSIC & MIND</span>
+    <span class="brand-sub">MUSIC · PSYCHOLOGY · WELLBEING</span>
+  </a>
+  <nav>
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#music">Music Education</a>
+    <a href="#wellbeing">Wellbeing</a>
+    <a href="#insights">Insights</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="pill dark" href="#contact">Get in Touch <span>→</span></a>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="kicker">A CALMER, BRIGHTER YOU</p>
+      <h1>Music for<br><em>a richer human life.</em></h1>
+      <p class="intro">Music & Mind explores the intersection of music, psychology and wellbeing — helping people learn, feel, connect and grow through music.</p>
+      <div class="actions">
+        <a class="pill dark" href="#music">Explore <span>→</span></a>
+        <a class="pill outline" href="#about">Learn More</a>
+      </div>
+      <div class="motto"><span></span> LISTEN · UNDERSTAND · GROW</div>
+    </div>
+    <div class="hero-art" aria-label="Decorative music and nature composition">
+      <div class="art-circle"></div>
+      <div class="art-image"></div>
+      <div class="staff">
+        <i></i><i></i><i></i><i></i><i></i>
+      </div>
+      <div class="note">♪</div>
+      <div class="leaf leaf-a"></div><div class="leaf leaf-b"></div><div class="leaf leaf-c"></div>
+    </div>
+    <aside class="hero-side">
+      <span>LISTEN</span><span>UNDERSTAND</span><span>FEEL</span><span>GROW</span>
+      <div class="quote">“Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.”<small>— PLATO</small></div>
+    </aside>
+  </section>
+
+  <section class="what section">
+    <div class="section-heading">
+      <h2>What we do</h2><span></span>
+      <p>Music & Mind brings together music education, psychological insights and a deeper appreciation of how music can support wellbeing in everyday life.</p>
+    </div>
+    <div class="service-grid">
+      <article><div class="icon">♬</div><h3>Music Education</h3><p>Guitar, keyboard, flute, music theory and more.</p></article>
+      <article><div class="icon">◉</div><h3>Music & Psychology</h3><p>Exploring how music influences the mind, emotions and behaviour.</p></article>
+      <article id="wellbeing"><div class="icon">⌁</div><h3>Wellbeing</h3><p>Exploring music for focus, calm, expression and balance.</p></article>
+      <article id="insights"><div class="icon">▢</div><h3>Insights</h3><p>Articles, reflections, observations and resources.</p></article>
+      <article><div class="icon">○</div><h3>Workshops & Projects</h3><p>Future programmes, collaborations and creative projects.</p></article>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="feature-photo">
+      <div class="feature-overlay"><p>Different minds.<br><em>A more harmonious world.</em></p><span></span></div>
+    </div>
+    <div class="feature-copy" id="about">
+      <p class="kicker">ABOUT MUSIC & MIND</p>
+      <h2>Curiosity at the intersection of music and the mind.</h2>
+      <p>Music & Mind is an independent initiative by <strong>Raja Sharath Chandra</strong>, a Trinity Certified music educator interested in music, psychology and human wellbeing.</p>
+      <p>The work currently spans guitar, keyboard, flute, music theory and musical analysis, while leaving space for the platform to develop naturally.</p>
+      <a class="pill outline" href="#contact">Read More <span>→</span></a>
+    </div>
+  </section>
+
+  <section class="education section" id="music">
+    <div>
+      <p class="kicker">MUSIC EDUCATION</p>
+      <h2>Learn the music.<br><em>Understand the music.</em></h2>
+    </div>
+    <div class="education-copy">
+      <p>Lessons and learning can go beyond playing notes. Music theory, analysis and listening help build a deeper understanding of what makes music work.</p>
+      <div class="tags"><span>Guitar</span><span>Keyboard</span><span>Flute</span><span>Music Theory</span><span>Analysis</span></div>
+    </div>
+  </section>
+
+  <section class="contact section" id="contact">
+    <p class="kicker">CONTACT</p>
+    <h2>Let's start a conversation.</h2>
+    <p>For music education, collaborations, workshops or general enquiries.</p>
+    <a class="email" href="mailto:hello@musicandmind.in">hello@musicandmind.in</a>
+    <span class="place">Hyderabad · India</span>
+  </section>
+</main>
+
+<footer>
+  <div><strong>MUSIC & MIND</strong><small>MUSIC · PSYCHOLOGY · WELLBEING</small></div>
+  <span>© <span id="year"></span> Music & Mind. All rights reserved.</span>
+  <div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
