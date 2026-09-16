@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Music & Mind Journal</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .journal {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 70px 28px;
+        }
+
+        .journal-header {
+            max-width: 800px;
+            margin-bottom: 70px;
+        }
+
+        .journal-label {
+            font-size: 13px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #766653;
+            margin-bottom: 25px;
+        }
+
+        .journal h1 {
+            font-family: Georgia, serif;
+            font-size: clamp(52px, 8vw, 100px);
+            line-height: 0.95;
+            font-weight: 400;
+            margin: 0 0 35px;
+        }
+
+        .journal-intro {
+            font-family: Georgia, serif;
+            font-size: 24px;
+            line-height: 1.45;
+            color: #666;
+            max-width: 700px;
+        }
+
+        .articles {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        .article-card {
+            border: 1px solid #d8d5ce;
+            padding: 55px;
+            background: #faf9f5;
+        }
+
+        .article-category {
+            font-size: 12px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #766653;
+            margin-bottom: 35px;
+        }
+
+        .article-card h2 {
+            font-family: Georgia, serif;
+            font-size: 42px;
+            line-height: 1.05;
+            font-weight: 400;
+            margin: 0 0 25px;
+        }
+
+        .article-card p {
+            font-family: Georgia, serif;
+            font-size: 18px;
+            line-height: 1.55;
+            color: #666;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 20px;
+            color: #111;
+            text-decoration: underline;
+            text-underline-offset: 6px;
+            font-family: Georgia, serif;
+            font-size: 17px;
+        }
+
+        .back-home {
+            display: inline-block;
+            margin-bottom: 50px;
+            color: #555;
+            text-decoration: none;
+        }
+
+        @media (max-width: 700px) {
+            .journal {
+                padding: 45px 22px;
+            }
+
+            .articles {
+                grid-template-columns: 1fr;
+            }
+
+            .article-card {
+                padding: 35px;
+            }
+
+            .article-card h2 {
+                font-size: 34px;
+            }
+
+            .journal-intro {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="journal">
+
+        <a href="index.html" class="back-home">← Music & Mind</a>
+
+        <header class="journal-header">
+
+            <div class="journal-label">
+                The Music & Mind Journal
+            </div>
+
+            <h1>
+                Ideas worth<br>
+                listening to.
+            </h1>
+
+            <p class="journal-intro">
+                Writing about music, the mind, learning and wellbeing —
+                with curiosity rather than easy answers.
+            </p>
+
+        </header>
+
+
+        <section class="articles">
+
+
+            <!-- ARTICLE 1 -->
+
+            <article class="article-card">
+
+                <div class="article-category">
+                    Music & Psychology
+                </div>
+
+                <h2>
+                    Why does music affect our emotions?
+                </h2>
+
+                <p>
+                    A starting point for exploring expectation, memory,
+                    attention and the emotional experience of music.
+                </p>
+
+                <a
+                    href="articles/why-music-affects-emotions.html"
+                    class="read-more">
+                    Read article →
+                </a>
+
+            </article>
+
+
+            <!-- ARTICLE 2 -->
+
+            <article class="article-card">
+
+                <div class="article-category">
+                    Music Education
+                </div>
+
+                <h2>
+                    Learning music is more than learning notes.
+                </h2>
+
+                <p>
+                    What happens when we stop treating music education
+                    as simply the acquisition of technical skills?
+                </p>
+
+                <a href="#" class="read-more">
+                    Coming soon →
+                </a>
+
+            </article>
+
+
+            <!-- ARTICLE 3 -->
+
+            <article class="article-card">
+
+                <div class="article-category">
+                    Music & Mind
+                </div>
+
+                <h2>
+                    Why do certain songs become part of our memories?
+                </h2>
+
+                <p>
+                    Music can become closely associated with places,
+                    people and periods of our lives.
+                </p>
+
+                <a href="#" class="read-more">
+                    Coming soon →
+                </a>
+
+            </article>
+
+
+            <!-- ARTICLE 4 -->
+
+            <article class="article-card">
+
+                <div class="article-category">
+                    Wellbeing
+                </div>
+
+                <h2>
+                    Can music change the way we experience a moment?
+                </h2>
+
+                <p>
+                    A look at attention, mood, context and the ways
+                    music can shape everyday experience.
+                </p>
+
+                <a href="#" class="read-more">
+                    Coming soon →
+                </a>
+
+            </article>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
